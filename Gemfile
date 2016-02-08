@@ -35,9 +35,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Frontend-related gem
 gem 'foundation-rails', '~> 6.1.2.0'
 gem "font-awesome-rails", '~> 4.5.0.0'
+gem 'lodash-rails', '~> 4.0.0'
 
 # Web server
 gem 'puma'
+
+# For fetching twitter statuses
+gem 'oauth2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
